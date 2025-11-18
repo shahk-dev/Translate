@@ -22,3 +22,6 @@ def echo_all(message):
     bot.reply_to(message, javob)
 
 bot.infinity_polling()
+
+
+bot.polling(none_stop=True)
